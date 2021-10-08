@@ -1,0 +1,48 @@
+.ui.main.text.container {
+    margin-top: 52px
+}
+
+.ui.container {
+    margin-left: 0 !important;
+}
+
+.ui.option.bar {
+    background-color: rgb(20, 3, 66);
+    margin-top: 2cm;
+    height: 1.5cm;
+}
+
+.ui.menu {
+    background: #0E6EB8 !important;
+}
+
+.ui.dimmer {
+    background-color: #0E6EB8 !important;
+}
+
+i.large.icon {
+    color: white;
+    /*margin-top: 8px;*/
+    /*margin-right: 10px;*/
+}
+
+.App {
+    overflow: auto;
+}
+
+.clickable:hover {
+    background-color: rgba(255, 255, 255, .15) !important;
+}
+
+.ui.menu .item > i.icon {
+    margin: 0 !important;
+}
+
+.ui.dimmer {
+    position: relative;
+}
+
+.ui.item.clickable{
+    max-height: 47px;
+    max-width: 56.77px;
+}

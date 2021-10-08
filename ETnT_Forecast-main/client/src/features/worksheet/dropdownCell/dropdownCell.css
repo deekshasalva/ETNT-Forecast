@@ -1,0 +1,7 @@
+.MuiOutlinedInput-root {
+    padding: 0 !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border: 0 !important;
+}

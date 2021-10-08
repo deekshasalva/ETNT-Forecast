@@ -1,0 +1,6 @@
+{
+  "Token": "a389516d-871a-4b36-a127-278bf9a06e59",
+  "postgres": {
+    "connectionString": "Host=localhost;Port=5432;Username=postgres;Password=#Iamdevil1;Database=etnt;"
+  }
+}

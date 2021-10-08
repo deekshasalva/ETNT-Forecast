@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>DataAccess</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Autofac" Version="6.2.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.18">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.18" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Common\Common.csproj" />
+    </ItemGroup>
+
+</Project>
